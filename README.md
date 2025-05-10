@@ -20,3 +20,9 @@ The project uses a CSV file containing IMDb movie reviews. Each entry typically 
 * **Format:** CSV with at least two columns: one for the review text and one for the sentiment label.
 
 ## 📁 File Structure
+├── data/
+│   └── imdb_reviews.csv  # Your dataset file
+├── src/
+│   └── sentiment_analyzer.py # Main Python script
+├── requirements.txt      # List of dependencies
+└── README.md             # This file
